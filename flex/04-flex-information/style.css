@@ -8,21 +8,28 @@ img {
   height: 100px;
 }
 
-
 .title {
   font-size: 36px;
   font-weight: 900;
-  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  margin-top: 32px;
   gap: 52px;
-
 }
 
-.info {}
+.info {
+  /* text-align: center;
+  display: flex;
+ 
+  flex-wrap: wrap;
+  justify-content: space-around; */
+  max-width: 200px;
+}
 
 /* do not edit this footer */
 .footer {
